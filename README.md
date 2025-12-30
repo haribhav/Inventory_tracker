@@ -41,35 +41,19 @@ The application allows users to **add, view, update, search, and delete products
 
 ---
 
-🔗 API Endpoints
-Method	Endpoint	Description
-GET	/	Health check
-GET	/products	Get all products
-POST	/products	Create product
-PUT	/products/{id}	Update product
-DELETE	/products/{id}	Delete product
-🧠 Key Learnings
+| Method | Endpoint         | Description      |
+| ------ | ---------------- | ---------------- |
+| GET    | `/`              | Health check     |
+| GET    | `/products`      | Get all products |
+| POST   | `/products`      | Create product   |
+| PUT    | `/products/{id}` | Update product   |
+| DELETE | `/products/{id}` | Delete product   |
 
-Building REST APIs using FastAPI
-
-Database transactions with SQLAlchemy
-
-Dependency injection for DB sessions
-
-Handling CORS between frontend and backend
-
-Full CRUD lifecycle implementation
-
-Git & GitHub version control
 
 📌 Future Improvements
 
-Authentication & authorization
-
-Pagination
-
-Dockerization
-
-Deployment (Render / Railway / Vercel)
-
-Unit & integration tests
+1.Authentication & authorization
+2.Pagination
+3.Dockerization
+4.Deployment (Render / Railway / Vercel)
+5.Unit & integration tests
