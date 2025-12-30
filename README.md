@@ -41,6 +41,8 @@ The application allows users to **add, view, update, search, and delete products
 
 ---
 
+🔗 **API Endpoints**
+
 | Method | Endpoint         | Description      |
 | ------ | ---------------- | ---------------- |
 | GET    | `/`              | Health check     |
@@ -50,7 +52,7 @@ The application allows users to **add, view, update, search, and delete products
 | DELETE | `/products/{id}` | Delete product   |
 
 
-📌 Future Improvements
+📌 **Future Improvements**
 
 1.Authentication & authorization
 2.Pagination
